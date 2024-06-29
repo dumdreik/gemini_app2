@@ -67,11 +67,11 @@ function Main(props) {
 						<div>
 							<img src={assets.gallery_icon} alt=""/>
 							<img src={assets.mic_icon} alt=""/>
-							<img onClick={() => onSent()} src={assets.send_icon} alt=""/>
+							{input ? <img onClick={() => onSent()} src={assets.send_icon} alt=""/>:null}
 						</div>
 					</div>
 					<p className="bottom-info">
-						Let's Build Google Gemini 2.0 Using React JS and Gemini API | Gemini Clone In React 2024
+					Let's Build Google Gemini 2.0 Using React JS and Gemini API | Gemini Clone In React 2024
 					</p>
 				</div>
 			</div>
